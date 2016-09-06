@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB6DEA5A1D7CACDE0077668B /* InteractiveStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DEA591D7CACDE0077668B /* InteractiveStory.swift */; };
 		EB83BB9A1D73A68800E19ADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83BB991D73A68800E19ADF /* AppDelegate.swift */; };
 		EB83BB9C1D73A68800E19ADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83BB9B1D73A68800E19ADF /* ViewController.swift */; };
 		EB83BB9F1D73A68800E19ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB83BB9D1D73A68800E19ADF /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB6DEA591D7CACDE0077668B /* InteractiveStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InteractiveStory.swift; path = ../InteractiveStory.swift; sourceTree = "<group>"; };
 		EB83BB961D73A68800E19ADF /* InteractiveStory2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveStory2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB83BB991D73A68800E19ADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB83BB9B1D73A68800E19ADF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				EB83BB991D73A68800E19ADF /* AppDelegate.swift */,
 				EB83BB9B1D73A68800E19ADF /* ViewController.swift */,
+				EB6DEA591D7CACDE0077668B /* InteractiveStory.swift */,
 				EB83BB9D1D73A68800E19ADF /* Main.storyboard */,
 				EB83BBA01D73A68800E19ADF /* Assets.xcassets */,
 				EB83BBA21D73A68800E19ADF /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6DEA5A1D7CACDE0077668B /* InteractiveStory.swift in Sources */,
 				EB83BB9C1D73A68800E19ADF /* ViewController.swift in Sources */,
 				EB83BB9A1D73A68800E19ADF /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +304,7 @@
 				EB83BBAA1D73A68800E19ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
