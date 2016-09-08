@@ -13,6 +13,7 @@
 		EB83BB9F1D73A68800E19ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB83BB9D1D73A68800E19ADF /* Main.storyboard */; };
 		EB83BBA11D73A68800E19ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB83BBA01D73A68800E19ADF /* Assets.xcassets */; };
 		EB83BBA41D73A68800E19ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB83BBA21D73A68800E19ADF /* LaunchScreen.storyboard */; };
+		EBE66DE21D7E7D050061510E /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE66DE11D7E7D050061510E /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB83BBA01D73A68800E19ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB83BBA31D73A68800E19ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB83BBA51D73A68800E19ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE66DE11D7E7D050061510E /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EB83BB991D73A68800E19ADF /* AppDelegate.swift */,
 				EB83BB9B1D73A68800E19ADF /* ViewController.swift */,
 				EB6DEA591D7CACDE0077668B /* InteractiveStory.swift */,
+				EBE66DE11D7E7D050061510E /* PageController.swift */,
 				EB83BB9D1D73A68800E19ADF /* Main.storyboard */,
 				EB83BBA01D73A68800E19ADF /* Assets.xcassets */,
 				EB83BBA21D73A68800E19ADF /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE66DE21D7E7D050061510E /* PageController.swift in Sources */,
 				EB6DEA5A1D7CACDE0077668B /* InteractiveStory.swift in Sources */,
 				EB83BB9C1D73A68800E19ADF /* ViewController.swift in Sources */,
 				EB83BB9A1D73A68800E19ADF /* AppDelegate.swift in Sources */,
