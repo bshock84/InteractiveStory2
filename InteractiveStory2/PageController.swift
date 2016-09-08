@@ -83,7 +83,7 @@ class PageController: UIViewController {
         NSLayoutConstraint.activate([
             storyLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16.0),
             storyLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16.0),
-            storyLabel.topAnchor.constraint(equalTo: view.centerYAnchor, constant: 10.0)
+            storyLabel.topAnchor.constraint(equalTo: view.centerYAnchor, constant: -48.0)
             ])
         
         view.addSubview(firstChoiceButton)
