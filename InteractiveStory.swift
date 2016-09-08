@@ -43,6 +43,21 @@ extension Story {
         return UIImage(named: self.rawValue)!
     }
     
+    var soundEffectURL: NSURL {
+        let fileName: String
+        
+        switch self {
+        case .Droid, .Home: fileName = "HappyEnding"
+        case .Monster: fileName = "Ominous"
+        default: fileName = "PageTurn"
+            
+        }
+        
+        let path = Bundle.main.path(forResource: fileName, ofType: "wav")!
+        
+        return NSURL(fileURLWithPath: path)
+    }
+    
     
     // A computed value that returns a chapter's text based on the enum case that is being used.
     var text: String {
@@ -148,6 +163,8 @@ struct Adventure {
         
         return returnTrip
     }
+    
+    
 }
 
 
